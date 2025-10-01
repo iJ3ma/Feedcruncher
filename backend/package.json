@@ -1,0 +1,25 @@
+{
+  "name": "feedcruncher-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express backend for Feedcruncher aggregator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "feeds",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
